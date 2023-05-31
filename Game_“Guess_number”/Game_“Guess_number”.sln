@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game_“Guess_number”", "Game_“Guess_number”\Game_“Guess_number”.csproj", "{765CF6D4-6D41-4603-9929-6B73CB564BA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameGuessNumber", "Game_“Guess_number”\GameGuessNumber.csproj", "{765CF6D4-6D41-4603-9929-6B73CB564BA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumberGameTests", "GuessNumberGameTests\GuessNumberGameTests.csproj", "{03F62A47-09E6-4823-97F5-3D48022C5ECF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{765CF6D4-6D41-4603-9929-6B73CB564BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{765CF6D4-6D41-4603-9929-6B73CB564BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{765CF6D4-6D41-4603-9929-6B73CB564BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F62A47-09E6-4823-97F5-3D48022C5ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F62A47-09E6-4823-97F5-3D48022C5ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F62A47-09E6-4823-97F5-3D48022C5ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F62A47-09E6-4823-97F5-3D48022C5ECF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

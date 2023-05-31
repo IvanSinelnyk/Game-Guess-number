@@ -1,5 +1,9 @@
-﻿using Game__Guess_number_;
+﻿using Game_Guess_number;
 
+string logFilePath = "log.txt";
+using (StreamWriter writer = new StreamWriter(logFilePath))
+{
+    GuessNumberGame game = new GuessNumberGame(Console.ReadLine, Console.WriteLine, writer);
 
-var game = new GuessNumberGame(Console.ReadLine, Console.WriteLine);
-game.Start();
+    game.Start();
+}
