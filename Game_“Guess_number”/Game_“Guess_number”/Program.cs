@@ -1,9 +1,14 @@
 ﻿using Game_Guess_number;
+using static Game_Guess_number.GuessNumberGame;
 
-string logFilePath = "log.txt";
-using (StreamWriter writer = new StreamWriter(logFilePath))
+GuessNumberGame game = new(Console.ReadLine, Console.WriteLine);
+
+ResultComparing result;
+do
 {
-    GuessNumberGame game = new GuessNumberGame(Console.ReadLine, Console.WriteLine, writer);
+    game.AskUserNumber();
 
-    game.Start();
+    result = game.CompareNumbers();
+    game.Messanger(result);
 }
+while (result != ResultComparing.Equal);
